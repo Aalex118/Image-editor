@@ -1,0 +1,61 @@
+/* Low resolution PC */
+@media screen and (min-width: 1024px) {
+    body{
+        background-color: rgb(225, 129, 65);
+    }
+    /* TOOLBAR NAV */ 
+    .fucntion-nav-box {
+        position: inherit;
+        width: 100%;
+    }
+    .toolbar-nav--burger-button{
+        float: left;
+        visibility: hidden;
+        width: 1px;
+    }
+    #toolbar-menu {
+        display: block;
+    }
+    .toolbar-menu--button {
+        float: right;
+        width: 10%;
+        padding: 18px 0;
+        background-color: transparent;
+        border: none;
+    }
+    /* WORKSPACE */
+    .workspace-box{
+        float: left;
+        width: 87%;
+        /*transform: rotateZ(180deg)*/
+    }
+
+    /* FUNCTION NAV */
+
+    .functions-nav {
+        float: right;
+        width: 12%;
+        height: 300px;
+        background-color: #393939;
+        box-shadow: 0 0 3px #111;
+    }
+    
+    .functions-menu--button {
+        width: 4%;
+        height: 40px;
+        margin: 5px 0;
+        float: none;
+    }
+    .functions-menu--button:hover {
+        background-color: #424242;
+    }
+
+}
+
+
+/* High resolution PC */
+@media screen and (min-width: 1200px) {
+    body{
+        background-color: rgb(225, 65, 65);
+    }
+}
